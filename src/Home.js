@@ -21,9 +21,9 @@ function Home() {
       </div>
 
       <div className='home__body'>
-        {/* <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' /> */}
+        {/* <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' alt='logo' /> */}
         <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-          alt=''
+          alt='logo'
         />
         <div className='home__inputContainer'>
           <Search />

@@ -19,11 +19,11 @@ function SearchPage() {
         <div className='searchPage'>
             <div className='searchPage__header'>
                 <Link to="/">
-                    {/* <img className='searchPage__logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' alt='' /> */}
+                    {/* <img className='searchPage__logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' alt='logo' /> */}
                     <img
                         className='searchPage__logo'
                         src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-                        alt=''
+                        alt='logo'
                     />
                 </Link>
 
