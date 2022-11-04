@@ -1,8 +1,8 @@
-import "./Home.css";
+import "../style/Home.css";
 import { Link } from "react-router-dom";
 import AppsIcon from '@mui/icons-material/Apps';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Search from './Search';
+import Search from "./Search"
 
 function Home() {
   return (
@@ -21,10 +21,8 @@ function Home() {
       </div>
 
       <div className='home__body'>
-        {/* <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' alt='logo' /> */}
-        <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
-          alt='logo'
-        />
+        <img src='https://github.com/BlakeUSD/github-repo-image-hosting/blob/main/images/google-clone-asset.png?raw=true' alt='logo' />
+        {/* <img src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png' alt='logo' /> */}
         <div className='home__inputContainer'>
           <Search />
         </div>

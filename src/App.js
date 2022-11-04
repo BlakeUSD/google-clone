@@ -1,7 +1,7 @@
 import React from 'react';
-import './App.css';
-import Home from './Home';
-import SearchPage from './SearchPage';
+import './style/App.css';
+import Home from './components/Home';
+import SearchPage from './components/SearchPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

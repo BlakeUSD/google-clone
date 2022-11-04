@@ -1,7 +1,7 @@
 import React from 'react';
-import "./SearchPage.css";
-import { useStateValue } from "./StateProvider";
-import useGoogleSearch from "./useGoogleSearch";
+import "../style/SearchPage.css";
+import { useStateValue } from "../utils/StateProvider";
+import useGoogleSearch from "../utils/useGoogleSearch";
 import Search from "./Search";
 import SearchIcon from '@mui/icons-material/Search';
 import DescriptionIcon from '@mui/icons-material/Description';
@@ -19,12 +19,15 @@ function SearchPage() {
         <div className='searchPage'>
             <div className='searchPage__header'>
                 <Link to="/">
-                    {/* <img className='searchPage__logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Nudle_Logo.png/1200px-Nudle_Logo.png?20170226152501' alt='logo' /> */}
-                    <img
+                    <img 
+                    className='searchPage__logo' 
+                    src='https://github.com/BlakeUSD/github-repo-image-hosting/blob/main/images/google-clone-asset.png?raw=true' 
+                    alt='logo' />
+                    {/* <img
                         className='searchPage__logo'
                         src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
                         alt='logo'
-                    />
+                    /> */}
                 </Link>
 
 
@@ -84,7 +87,9 @@ function SearchPage() {
                                     item.pagemap?.cse_image[0]?.src && (
                                         <img
                                             className='searchPage__resultImage'
-                                            src={item.pagemap?.cse_image[0]?.src} />
+                                            src={item.pagemap?.cse_image[0]?.src} 
+                                            alt=""
+                                            />
                                     )}
                                 {item.displayLink}
                             </a>
