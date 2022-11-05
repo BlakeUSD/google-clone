@@ -32,7 +32,7 @@ To get a local copy up and running follow these simple steps.
 
 ## Live Demo
 
-- Click [here](https://google-clone-blakeusd.vercel.app/) to view the live demo.
+- Click [here](https://google-clone-git-master-blakeusd.vercel.app/) to view the live demo.
 
 ### Setup
 
