@@ -1,5 +1,5 @@
 # Google clone
-This is a responsive and functional Google clone created with ReactJS. Highlights include:
+This is a responsive and functional Google clone created with ReactJS. Highlights:
 
 - Implemented a search engine API to return authentic search results and data
 - Integrated Material UI Icons
